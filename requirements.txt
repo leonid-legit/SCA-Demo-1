@@ -1,3 +1,3 @@
 # Directly vulnerable
-
 strawberry-graphql==0.239.0
+lxml==4.2.0
