@@ -7,6 +7,15 @@ import simplejson as json
 
 app = Flask(__name__)
 
+# 🔐 Simulated secrets for testing secret scanning tools
+aws_access_key_id = "AKIAIOSFODNN7EXAMPLE"
+aws_secret_access_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+
+github_token = "ghp_1234567890abcdefghijklmnopqrstuvwx"
+slack_webhook_url = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+private_api_key = "sk_test_4eC39HqLyjWDarjtT1zdp7dc"
+
+
 @app.route("/")
 def index():
     return render_template_string("Welcome to a vulnerable app!")
