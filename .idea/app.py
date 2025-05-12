@@ -42,6 +42,9 @@ jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fake.payload.signature"
 slack_webhook = "https://hooks.slack.com/services/T00000000/B00000000/FAKEWEBHOOK123456"
 
 
+facebook_key = "eb3692aa10723d1d3fca8a55eb78cbc9"
+fb_key = "eb3692aa10723d1d3fca8a55eb78cbc9"
+
 
 
 @app.route("/")
