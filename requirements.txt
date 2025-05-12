@@ -1,3 +1,4 @@
 # Directly vulnerable
 strawberry-graphql==0.239.0
 lxml==4.2.0
+Pillow==5.1.0              # CVE-2018-10115
