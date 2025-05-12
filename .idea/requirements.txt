@@ -2,3 +2,4 @@
 flask==0.12                # CVE-2018-1000656
 jinja2==2.10               # CVE-2019-10906
 pillow==9.5.0
+opencv-python==4.6.0.66
