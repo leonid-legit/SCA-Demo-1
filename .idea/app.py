@@ -35,6 +35,8 @@ mapbox_token = "pk.eyJ1IjoiZmFrZXVzZXIiLCJhIjoiY2t3fWxlbW9jMjF5YzJ0bTA4cGs1bDkzZ
 # Generic API token (used in many scanners)
 api_token = "api_key=12345-abcdef-67890-ghijkl"
 
+administrator_login_password = "AdminPassword123!"
+
 
 
 @app.route("/")
