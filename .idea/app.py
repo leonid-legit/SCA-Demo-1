@@ -37,6 +37,8 @@ api_token = "api_key=12345-abcdef-67890-ghijkl"
 
 administrator_login_password = "AdminPassword123!"
 
+jwt_secret =  "thisIsASuperSecretKeyYouShouldNotCommit"
+
 
 
 @app.route("/")
