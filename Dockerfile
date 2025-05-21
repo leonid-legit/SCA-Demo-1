@@ -1,3 +1,4 @@
+
 # ❌ Outdated base image with known CVEs
 FROM ubuntu:18.04
 
