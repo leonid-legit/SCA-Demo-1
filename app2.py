@@ -3,7 +3,7 @@ from google.api_core.exceptions import NotFound
 
 def get_secret(secret_id, project_id):
     """
-    Retrieve the latest version of a secret from Google Cloud Secret Manager.
+    Retrieve the latest version of a secret from Google Cloud Secret Manager..
 
     :param secret_id: The name of the secret (e.g., "db_password").
     :param project_id: GCP project ID where the secret is stored.
