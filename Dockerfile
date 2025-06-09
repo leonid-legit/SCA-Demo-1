@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 
 # ❌ Use deprecated Python version with vulnerable packages
 RUN apt-get update && apt-get install -y python3-pip
-COPY requirements.txt .
+COPY .idea/depen/requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 # ❌ Hardcoded secret in ENV variable
