@@ -1,2 +1,0 @@
-# Directly vulnerable
-flask==0.12                # CVE-2018-1000656

@@ -1,0 +1,10 @@
+# Directly vulnerable
+strawberry-graphql==0.239.0
+lxml==4.2.0
+Pillow==5.1.0              # CVE-2018-10115
+
+# Vulnerable to CVE-2024-34069
+Werkzeug==3.0.2
+
+# Optionally include Flask (depends on Werkzeug)
+Flask==2.3.3
